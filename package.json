@@ -1,0 +1,16 @@
+{
+  "name": "crypto-tweet-bot",
+  "version": "1.0.0",
+  "description": "A bot which buys crypto from Binance when someone tweets with specific keywords.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Almatrass",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "node-binance-api": "^0.12.5",
+    "twitter": "^1.7.1"
+  }
+}
